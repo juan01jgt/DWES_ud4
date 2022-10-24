@@ -6,9 +6,11 @@ if (!isset($_SESSION['inicioTime'])) {
 }
 $tiempo_maximo = $_SESSION["inicioTime"] + 5;
 echo "Contador: " . $_SESSION['cont']++;
+echo "Tiempo max: " . $tiempo_maximo;
+echo "Tiempo: " . time();
 if (time() > $tiempo_maximo) {
-    $_SESSION['cont'] = 0;
     $_SESSION['inicioTime'] = time();
+    $_SESSION['cont'] = 0;
 }
 ?>
 <!DOCTYPE html>
