@@ -8,7 +8,10 @@ class Contador
     {
         self::$numcont++;
     }
-    
+    public function asigna($valor)
+    {
+        $this->_num = $valor;
+    }
 
     public function incremento()
     {

@@ -49,6 +49,24 @@ echo '<br>';
 echo 'Total de contadores: ';
 echo $contador1->contadores();
 echo '<br>';
+echo '<br>';
+
+echo 'Creo contador4 con valor 5';
+$contador4= new Contador();
+$contador4->asigna(5);
+echo '<br>';
+echo 'Incremento contador4';
+$contador4->incremento();
+echo '<br>';
+echo 'Muestro contador4: ';
+echo $contador4->mostrar();
+echo '<br>';
+echo '<br>';
+
+echo 'Total de contadores: ';
+echo $contador1->contadores();
+echo '<br>';
+echo '<br>';
 
 echo "</br><a target='_blank' href='https://github.com/juan01jgt/DWES_ud4/tree/main/Contadorinstanciado'>Código</a>";
 
