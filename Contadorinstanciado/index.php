@@ -42,4 +42,7 @@ echo 'Muestro contador3: ';
 echo $contador3->mostrar();
 echo '<br>';
 echo '<br>';
+
+echo "</br><a target='_blank' href='https://github.com/juan01jgt/DWES_ud4/tree/main/Contadorinstanciado'>Código</a>";
+
 ?>
