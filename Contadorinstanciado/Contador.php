@@ -2,15 +2,13 @@
 class Contador
 {
     private $_num = 0;
+    private static $numcont =0;
 
     public function __construct()
     {
-
+        self::$numcont++;
     }
-    public function __construct2($valor)
-    {
-        $this->_num = $valor;
-    }
+    
 
     public function incremento()
     {
@@ -19,6 +17,11 @@ class Contador
     public function mostrar()
     {
         return $this->_num;
+    }
+
+    public function contadores()
+    {
+        return self::$numcont;
     }
 
 }
