@@ -1,0 +1,21 @@
+table{
+    border: 1px solid;
+    margin: 5px;
+    font-weight: bold;
+}
+td{
+    border: 1px solid;
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: rgb(248,240,240);
+}
+td a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 15%;
+}
+.visible{
+    background-color: rgb(164, 164, 164);
+}

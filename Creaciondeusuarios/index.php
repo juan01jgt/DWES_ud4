@@ -65,9 +65,12 @@ if (isset($_POST['enviar2'])) {
         $cont++;
     }
     fclose($myfile);
+    $nom;
     foreach ($alumnos as $key => $value) {
-        print_r($nombres[$value]);
+        $nombres[$key]=explode(" ",str_replace(",","",$nombres[$value]),3);
     }
+    print_r($nombres);
+    print_r(date("y"));
 }
 
 ?>

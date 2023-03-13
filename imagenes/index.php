@@ -48,8 +48,8 @@ closedir($handle);
 <body>
     <form action="index.php" method="post" enctype="multipart/form-data">
         <label for="file">Imagen: </label><input type="file" name="file" id="">
-        <br>
-        <input type="submit" name="enviar" value="enviar">
+        <br><input type="submit" name="enviar" value="enviar">
+        
     </form>
     <?php
     foreach ($aux as $key => $value) {
